@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .education-entry {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  h3 {
+    color: #007bff;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  .skill-section {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .skill-heading {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .skill-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .skill-logo {
+    max-width: 100px;
+  }
+  
+  h3 {
+    color: #007bff;
+  }
+  

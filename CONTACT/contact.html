@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Me - Your Name</title>
+</head>
+<body>
+    <header>
+        <h2>Contact Me</h2>
+    </header>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label>Gender:</label>
+                <div>
+                    <input type="radio" id="male" name="gender" value="male" checked>
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+
+                <label for="interests">Interests:</label>
+                <div>
+                    <input type="checkbox" id="coding" name="interests" value="coding">
+                    <label for="coding">Coding</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="reading" name="interests" value="reading">
+                    <label for="reading">Reading</label>
+                </div>
+
+                <label for="subject">Subject:</label>
+                <textarea id="subject" name="subject" required></textarea>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="india">INDIA</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">UK</option>
+                </select>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
